@@ -2,13 +2,15 @@ import React from 'react'
 import { Container } from 'react-bootstrap'
 import Header from '../src/components/Header'
 import Footer from '../src/components/Footer'
+import HomeScreen from '../src/Screens/HomeScreen'
+
 function App() {
 	return (
 		<>
 			<Header />
 			<main>
 				<Container>
-					<h1 className='py-3'>Welcome to Proshop</h1>
+					<HomeScreen />
 				</Container>
 			</main>
 			<Footer />
