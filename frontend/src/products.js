@@ -90,6 +90,19 @@ const products = [
 		rating: 4.5,
 		numReviews: 15,
 	},
+	{
+		_id: '8',
+		name: 'Apple Watch Series 3 (GPS, 42mm)',
+		image: '/images/applewatch.png',
+		description:
+			'Apple Watch Series 3 (GPS, 42mm) - Silver Aluminium Case with White Sport Band',
+		brand: 'Apple',
+		category: 'Electronics',
+		price: '23899.51',
+		countInStock: 3,
+		rating: 4.5,
+		numReviews: 17,
+	},
 ]
 
 export default products

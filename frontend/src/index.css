@@ -20,4 +20,10 @@ main {
 	color: black;
 	font-weight: 500 !important;
 	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	padding: 1rem 0;
+	font-size: 120%;
+}
+
+.rating span {
+	padding: 1rem 0;
 }
