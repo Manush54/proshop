@@ -80,7 +80,7 @@ const products = [
 	{
 		_id: '7',
 		name: 'Dell Inspiron 15 3000 Laptop',
-		image: '/images/dell inspiron.png',
+		image: '/images/dellinspiron.png',
 		description:
 			'Intel Core i5-1135G7 Processor - 8GB Memory - Windows 10 Home - 512GB solid state hard drive - 14" FHD screen (36cm) - Integrated graphics - 1Y In-Home Hardware Service',
 		brand: 'Dell',
@@ -105,4 +105,4 @@ const products = [
 	},
 ]
 
-export default products
+module.exports = products
