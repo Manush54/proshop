@@ -1,3 +1,5 @@
+//Setting up the server, connecting to mongodb and the PORT
+
 import express from 'express'
 import dotenv from 'dotenv'
 import colors from 'colors'

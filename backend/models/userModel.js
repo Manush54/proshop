@@ -1,3 +1,6 @@
+//Setting the User Schema -- ( User name, email, password, etc. )
+//For password, bcrypt is used for hashing.
+
 import mongoose from 'mongoose'
 import bcrypt from 'bcryptjs'
 

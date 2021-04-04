@@ -1,3 +1,9 @@
+//Seeding(Feeding the data to the database by linking model files as well as data )
+//The await operator is used to wait for a Promise . It can only be used inside an async function within regular JavaScript code.
+//Import data is used to import all the data from backend.
+//If the data already exists, first it is destroyed in order to avoid overlapping.
+//Destroy data is used to destroy all the data in the backend.
+
 import mongoose from 'mongoose'
 import dotenv from 'dotenv'
 import colors from 'colors'

@@ -1,3 +1,5 @@
+//Setting thr schema for product data with reviews -- ( review schema, User, Product Image, name category, etc.)
+
 import mongoose from 'mongoose'
 
 const reviewSchema = mongoose.Schema(

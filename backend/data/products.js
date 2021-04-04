@@ -1,3 +1,6 @@
+//List of Products..used to provide data to backend
+//Exported to MongoDB Database
+
 const products = [
 	{
 		name: 'Airpods Wireless Bluetooth Headphones',

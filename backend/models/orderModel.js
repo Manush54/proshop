@@ -1,3 +1,5 @@
+//Setting the schema for order data -- ( buyer, order details, shipping details, billing details ) in the database..
+
 import mongoose from 'mongoose'
 
 const orderSchema = mongoose.Schema(
