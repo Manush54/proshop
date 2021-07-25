@@ -1,7 +1,9 @@
-//Setting thr schema for product data with reviews -- ( review schema, User, Product Image, name category, etc.)
+//Setting the schema for product data with reviews -- ( review schema, User, Product Image, name category, etc.)
+// Used by Mongoose to feed data to MongoDB.
 
 import mongoose from 'mongoose'
 
+// Used only in Product Schema
 const reviewSchema = mongoose.Schema(
 	{
 		name: { type: String, required: true },

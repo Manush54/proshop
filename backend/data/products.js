@@ -1,6 +1,5 @@
 //List of Products..used to provide data to backend
-//Exported to MongoDB Database
-
+//Exported to MongoDB Database via seeder script.	(seeder.js)
 const products = [
 	{
 		name: 'Airpods Wireless Bluetooth Headphones',

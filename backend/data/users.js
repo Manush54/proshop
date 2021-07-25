@@ -1,6 +1,6 @@
 //List of Users..
-//Exported to Backend ( MongoDB )
-
+//Exported to Backend ( MongoDB ) via seeder script. (seeder.js)
+// Using bcryptjs to generate hash of the password and then store to the db.
 import bcrypt from 'bcryptjs'
 
 const users = [

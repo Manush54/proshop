@@ -1,11 +1,12 @@
 //Setting the schema for order data -- ( buyer, order details, shipping details, billing details ) in the database..
+// Used by Mongoose to feed data to Mongo DB.
 
 import mongoose from 'mongoose'
 
 const orderSchema = mongoose.Schema(
 	{
 		user: {
-			type: mongoose.Schema.Types.ObjectId,
+			type: mongoose.Schema.Types.ObjectId, // User ID from User Schema
 			required: true,
 			ref: 'User',
 		},
@@ -16,7 +17,7 @@ const orderSchema = mongoose.Schema(
 				image: { type: String, required: true },
 				price: { type: Number, required: true },
 				product: {
-					type: mongoose.Schema.Types.ObjectId,
+					type: mongoose.Schema.Types.ObjectId, // Product ID from Product schema
 					required: true,
 					ref: 'Product',
 				},

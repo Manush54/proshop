@@ -2,14 +2,17 @@
 
 import mongoose from 'mongoose'
 
+// Using an aynchronous function for connecting to the db.
 const connectDB = async () => {
 	try {
 		const conn = await mongoose.connect(process.env.MONGO_URI, {
+			// mandatory to add.
 			useUnifiedTopology: true,
 			useNewUrlParser: true,
 			useCreateIndex: true,
 		})
 
+		// Success Message.
 		console.log(`MongoDB Connected: ${conn.connection.host}`.cyan.underline)
 	} catch (error) {
 		console.error(`Error: ${error.message}`.red.underline.bold)
