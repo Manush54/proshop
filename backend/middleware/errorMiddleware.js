@@ -1,3 +1,5 @@
+// Handling errors in the url string for the server.js script.
+// Exported to server.js for middleware handling.
 const notFound = (req, res, next) => {
 	const error = new Error(`Not found - ${req.originalUrl}`)
 	res.status(404)
